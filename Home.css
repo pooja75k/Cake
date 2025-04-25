@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: rgba(105, 57, 57, 0.95);
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color:white;
+}
+
+ li {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+ }
+   p{
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+   } 
+   
+img {
+    width: 35%;
+    position:absolute;
+    top:3%;
+    right:50px;
+    transform: translate(-50px,+50px);
+   
+}
+
+h2 {
+    text-align: left;
+        font-size: 40px;
+        text-size-adjust: 2px left;
+        font-family: 'lato',sans-serif;
+         color:white;
+}
+                                         /* FOOTER SECTION */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(105, 57, 57, 0.95);
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    margin: 20px;
+    width: calc(25% - 20px);
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #ccc;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.social-media a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url('facebook.png');
+}
+
+.instagram {
+    background-image: url('Instagram.png');
+}
+
+.twitter {
+    background-image: url('twitter.png');
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+}

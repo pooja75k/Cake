@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(105, 57, 57, 0.95);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cake-varieties {
+    margin-bottom: 20px;
+}
+
+.cake-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cake-item {
+    background-color: rgba(105, 57, 57, 0.95);
+    padding: 20px;
+    border: 1px solid w#ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.cake-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.cake-item h3 {
+    margin-top: 10px;
+}
+
+.cake-item p {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cake-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cake-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.Detail {
+
+    background-color: rgba(105, 57, 57, 0.95);
+    color: white;
+    text-align: center;
+}
+.Detail .p{
+
+    transform: left;
+}
+
+/* footer Section */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(105, 57, 57, 0.95);
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    margin: 20px;
+    width: calc(25% - 20px);
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #ccc;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.social-media a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url('facebook.png');
+}
+
+.instagram {
+    background-image: url('Instagram.png');
+}
+
+.twitter {
+    background-image: url('twitter.png');
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+}
+
+
+
+
+
